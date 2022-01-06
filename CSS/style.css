@@ -52,7 +52,7 @@ p {
   border-left: 5px solid;
   padding: 0 7px;
 }
-#color-title {
+.color-title {
   color: #5f27cd;
 }
 .all-button {
@@ -151,4 +151,31 @@ small {
 }
 .community-img {
   text-align: end;
+}
+/* Fifth Section */
+.fifth-section {
+  background: url("../images/shape-9.png") no-repeat;
+}
+.fifth-section h1 {
+  text-align: center;
+  padding: 40px 0;
+  margin-bottom: 60px;
+}
+.teach-content {
+  display: flex;
+  justify-content: space-between;
+}
+.teach-img {
+  width: 50%;
+  height: auto;
+}
+.teach-img img {
+  width: 80%;
+}
+.teach-text {
+  width: 50%;
+  height: auto;
+}
+.teach-text h2 {
+  text-align: left;
 }
