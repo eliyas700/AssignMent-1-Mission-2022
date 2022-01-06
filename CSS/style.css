@@ -1,10 +1,12 @@
 /* Universal Commands */
-/* font-family: "Merriweather", serif; */
 * {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
   text-align: justify;
+}
+body {
+  background: linear-gradient(rgba(156, 136, 255, 0.3), rgba(245, 246, 250, 1));
 }
 a {
   text-decoration: none;
@@ -31,6 +33,7 @@ p {
   font-size: 16px;
   line-height: 1.2;
 }
+
 /* First Section */
 .first-page {
   display: flex;
@@ -38,7 +41,7 @@ p {
   padding: 50px 0;
 }
 .first-page-text {
-  width: 40%;
+  width: 42%;
   height: auto;
   padding-top: 30px;
 }
@@ -65,7 +68,7 @@ p {
   font-size: 16px;
   font-weight: 600;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px #bdc3c7;
+  box-shadow: 10px 10px 30px rgba(25, 42, 86, 0.7);
   transition: 0.5s;
 }
 .all-button:hover {
@@ -81,6 +84,7 @@ small {
   width: 40%;
   height: auto;
 }
+
 /* Second Section*/
 .mission-area {
   display: flex;
@@ -113,6 +117,7 @@ small {
 .goals {
   background: rgba(232, 67, 147, 0.2);
 }
+
 /* Third Section */
 .develop-area {
   margin: 40px 0;
@@ -142,6 +147,7 @@ small {
   background-position: left;
   background-size: 20%;
 }
+
 /* Fourth Section */
 .fourth-section {
   padding: 40px 0;
@@ -152,6 +158,7 @@ small {
 .community-img {
   text-align: end;
 }
+
 /* Fifth Section */
 .fifth-section {
   background: url("../images/shape-9.png") no-repeat;
@@ -178,4 +185,25 @@ small {
 }
 .teach-text h2 {
   text-align: left;
+}
+
+/* Footer  */
+#special-footer {
+  color: rgba(214, 48, 49, 1);
+}
+footer {
+  display: block;
+  margin-top: 0;
+  padding: 20px 0;
+  background-color: rgba(39, 60, 117, 1);
+}
+footer h4 {
+  color: #bdc3c7;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+footer p {
+  padding: 12px 0;
+  text-align: center;
+  color: antiquewhite;
 }
