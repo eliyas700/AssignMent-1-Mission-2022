@@ -14,7 +14,7 @@ img {
   height: auto;
 }
 h1 {
-  font-size: 55px;
+  font-size: 50px;
 }
 h2 {
   font-size: 40px;
@@ -22,7 +22,7 @@ h2 {
   padding: 20px 0;
 }
 .container {
-  width: 98%;
+  width: 80%;
   height: auto;
   margin: 20px auto;
 }
@@ -31,11 +31,11 @@ p {
   font-size: 16px;
   line-height: 1.2;
 }
-/* First Page */
+/* First Section */
 .first-page {
-  height: 90vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 50px 0;
 }
 .first-page-text {
   width: 40%;
@@ -81,7 +81,7 @@ small {
   width: 40%;
   height: auto;
 }
-/* Second Page Area */
+/* Second Section*/
 .mission-area {
   display: flex;
   justify-content: space-between;
@@ -112,4 +112,43 @@ small {
 }
 .goals {
   background: rgba(232, 67, 147, 0.2);
+}
+/* Third Section */
+.develop-area {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.develop-img {
+  width: 45%;
+  height: auto;
+}
+.develop-img img {
+  width: 80%;
+}
+.develop-text {
+  width: 55%;
+  height: auto;
+}
+.develop-text h3 {
+  font-size: 30px;
+  text-align: start;
+  width: 45%;
+  line-height: 1.5;
+  padding: 40px 0;
+}
+.third-section {
+  background: url("../images/shape-1.png") no-repeat;
+  background-position: left;
+  background-size: 20%;
+}
+/* Fourth Section */
+.fourth-section {
+  padding: 40px 0;
+  background: url("../images/shape-1.png") no-repeat;
+  background-position: 98% 95%;
+  background-size: 15%;
+}
+.community-img {
+  text-align: end;
 }
